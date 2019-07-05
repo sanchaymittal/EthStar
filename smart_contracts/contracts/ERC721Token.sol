@@ -56,7 +56,7 @@ contract ERC721Token is ERC721 {
     /// @param _to The new owner
     /// @param _tokenId The NFT to transfer
     /// @param data Additional data with no specified format, sent in call to `_to`
-    function safeTransferFrom(address _from, address _to, uint256 _tokenId, bytes data) external payable {
+    function safeTransferFrom(address _from, address _to, uint256 _tokenId, bytes calldata data) external payable {
         // WILL NOT IMPLEMENT
     }
 
